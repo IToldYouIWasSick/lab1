@@ -4,3 +4,58 @@ body {
   background-attachment: fixed;
   background-position: center; 
 } 
+/*Profile Icon*/
+div.image {
+    content:url("https://scontent.fmnl18-1.fna.fbcdn.net/v/t1.0-9/11038079_510715402428808_8019312501478800594_n.jpg?_nc_cat=110&_nc_oc=AQmgOIGW61jfpyhLzyPdxrEovhjlq61x57QGGLxMyuHpdLtE9r4-1yq9x0FzMweAbi8&_nc_ht=scontent.fmnl18-1.fna&oh=651cb7d61eb963a7025ba020e64030ea&oe=5DB92820");
+	width: 400px;
+	height: 300px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/*Gaming Images*/
+div.image2 {
+    content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
+	width: 400px;
+	height: 300px;
+	margin-left: 200px;
+	margin-right: auto;
+	
+}
+div.image3 {
+	content:url("https://singularityhub.com/wp-content/uploads/2018/11/young-gamer-playing-video-game_shutterstock_624801452-1068x601.jpg");
+	width: 400px;
+	height: 300px;
+	margin-left: auto;
+    margin-right: 200px;
+	
+}
+/*Nerd Stuff Images*/
+div.image4 {
+    content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
+	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
+	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
+	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
+	width: 400px;
+	height: 300px;
+	margin-left: auto;
+    margin-right: auto;
+}
+/*Drawing Images*/
+div.image5 {
+    content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
+	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
+	width: 400px;
+	height: 300px;
+	margin-left: auto;
+    margin-right: auto;
+}
+/*Airsoft Images*/
+div.image6 {
+    content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
+	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
+	width: 400px;
+	height: 300px;
+	margin-left: auto;
+    margin-right: auto;
+}
