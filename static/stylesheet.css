@@ -85,82 +85,6 @@ div.image {
 	border-radius: 50%;
 }
 
-/*Gaming Images*/
-div.image2 {
-    content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	width: 400px;
-	height: 300px;
-	margin-left: auto;
-	margin-right: auto;
-	
-}
-div.image3 {
-	content:url("https://singularityhub.com/wp-content/uploads/2018/11/young-gamer-playing-video-game_shutterstock_624801452-1068x601.jpg");
-	width: 400px;
-	height: 300px;
-	margin-left: auto;
-    	margin-right: auto;
-	
-}
-/*Nerd Stuff Images*/
-div.image4 {
-    content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	width: 400px;
-	height: 300px;
-	margin-left: auto;
-    	margin-right: auto;
-}
-div.image4 {
-    content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	width: 400px;
-	height: 300px;
-	margin-left: auto;
-    	margin-right: auto;
-}
-div.image4 {
-    content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	width: 400px;
-	height: 300px;
-	margin-left: auto;
-    	margin-right: auto;
-}
-div.image4 {
-    content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	width: 400px;
-	height: 300px;
-	margin-left: auto;
-    	margin-right: auto;
-}
-/*Drawing Images*/
-div.image5 {
-    content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	width: 400px;
-	height: 300px;
-	margin-left: auto;
-   	 margin-right: auto;
-}
-/*Airsoft Images*/
-div.image6 {
-    content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	content:url("https://media.giphy.com/media/94DBMnpVEbJLy/giphy.gif");
-	width: 400px;
-	height: 300px;
-	margin-left: auto;
-   	 margin-right: auto;
-}
 
 div.description{
 	background-color: black;
@@ -171,4 +95,51 @@ div.description{
 	
 }
 
+/*Hobbies*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
