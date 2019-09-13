@@ -6,7 +6,7 @@
 	<link rel = "stylesheet"
 		type = "text/css"
 		href = "card_counter.css" />
-
+	<script src="yugioh.js"></script>
 
 
 </head>
@@ -17,20 +17,22 @@
 <font color= "white" ><top-center><h3> Yu-Gi-Oh Counter</h3></top-center></font>
 </div>
 <div>
-
-<div class="center">
-<input type="number"  step="1" value="8000"  data-role="keypad"  data-position="bottom" data-target="#keypad_target"> 
+<div id="bg">
+  <img src="https://i.pinimg.com/originals/b6/3e/6a/b63e6a702d0d5dd3a0cfb5ce3bb6505b.png" alt="">
 </div>
+<div id="container">
+  <div class="center">
+    <label id="YourName">Life Points</label>
+    <div id="YourLife">
+      <div id="YourUp">+</div>
+      <div id="YourCount">8000</div>
+      <div id="YourDown">-</div>
+    </div>
+  </div>
+  
+<div id="reset">R</div>
 
 
-<div class="top-left">
-<a href='index.html'><font color="magenta"><h1><span> < < </span></h1></a></font>
-</div>
-
-
-	
-</div>
-</center>
 </div>
 </body>
 </html>

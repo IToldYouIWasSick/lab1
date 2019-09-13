@@ -6,29 +6,39 @@
 	<link rel = "stylesheet"
 		type = "text/css"
 		href = "card_counter.css" />
+	<script src="mtg.js"></script>
 
 
 </head>
 
 <body>
-
-<div class="centered">
-<font color= "white" ><top-center><h1> MTG Counter</h1></top-center></font>
+<div id="bg">
+  <img src="http://www.xandor.ca/life/images/ravnica2.jpg" alt="">
 </div>
-<div>
-
-<div class="quantity">
-<input type="number"  step="1" value="20"  > 
+<div id="container">
+  <div class="left">
+    <label id="YourName">Your Life Points</label>
+    <div id="YourLife">
+      <div id="YourUp">+</div>
+      <div id="YourCount">20</div>
+      <div id="YourDown">-</div>
+    </div>
+  </div>
+  <div class="right">
+    <label id="EnemyName">Enemy Life Points</label>
+    <div id="EnemyLife">
+      <div id="EnemyUp">+</div>
+      <div id="EnemyCount">20</div>
+      <div id="EnemyDown">-</div>
+    </div>
+  </div>
 </div>
-
+<div id="reset">R</div>
+<div id="commander">?</div>
 
 <div class="top-left">
 <a href='index.html'><font color="magenta"><h1><span> < < </span></h1></a></font>
 </div>
-
-	
-</div>
-</center>
 
 </body>
 </html>

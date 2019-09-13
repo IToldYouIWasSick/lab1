@@ -1,7 +1,7 @@
 
 /*Button Links*/
 
-
+/*
 body {
     margin: 0;
     height: 100vh;
@@ -70,7 +70,7 @@ li span {
 li:hover span {
     transform: translateX(0.15em);
 }
-
+*/
 /*Icon*/
 div.icon {
     content:url("https://usercontent2.hubstatic.com/14104605_f520.jpg");
@@ -83,90 +83,215 @@ div.icon {
 
 /*MTG*/
 
-
-.quantity{
-position: relative;
-}
-/*
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button
-{
-  -webkit-appearance: none;
-  margin: 0;
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-input[type=number]
-{
-  -moz-appearance: textfield;
+* {
+    -webkit-transition: opacity 0.1s ease-in-out;
+    -moz-transition: opacity 0.1s ease-in-out;
+    -o-transition: opacity 0.1s ease-in-out;
+    -ms-transition: opacity 0.1s ease-in-out;    
+    transition: opacity 0.1s ease-in-out;
 }
-*/
-.quantity input {
-  width: 95px;
-  height: 92px;
-  line-height: 1.65;
-  float: left;
+
+#bg {
+  position:fixed; 
+	top:-50%; 
+	left:-50%; 
+	width:200%; 
+	height:200%;
+}
+
+#bg img {
+	position:absolute; 
+	top:0; 
+	left:0; 
+	right:0; 
+	bottom:0; 
+	margin:auto; 
+	min-width:50%;
+	min-height:50%;
+}
+
+#container {
+	font-size: 2.5em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+
+.right { 
+	float: right;
+	width: 42.5%;
+	margin: 20px 5% 0 2.5%;	
+}
+
+.left {
+	float: left;
+	width: 42.5%;
+	margin: 20px 2.5% 0 5%;
+}
+
+.center {
+	float: center;
+	width: 42.5%;
+	margin: 15px 2.0% 0 %;
+}
+
+label {
+	font-size: 0.8em;
+	display: block;
+	margin: 0 0 20px;
+	padding: 5px 0;
+	opacity: 0.9;
+	background-color: #EEE;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEE), color-stop(100%, #CCC));
+	background-image: -webkit-linear-gradient(top, #EEE, #AAA);
+	background-image: -moz-linear-gradient(top, #EEE, #AAA);
+	background-image: -ms-linear-gradient(top, #EEE, #AAA);
+	background-image: -o-linear-gradient(top, #EEE, #AAA);
+	background-image: linear-gradient(top, #EEE, #AAA);
+	border: 1px solid #999;
+	border-bottom: 1px solid #BBB;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	text-shadow: 0 1px 0 #EEE;
+	background-color: #EEE;
+}
+
+#YourLife {
+	opacity: 0.9;
+	background-color: #EEE;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEE), color-stop(100%, #CCC));
+	background-image: -webkit-linear-gradient(top, #EEE, #AAA);
+	background-image: -moz-linear-gradient(top, #EEE, #AAA);
+	background-image: -ms-linear-gradient(top, #EEE, #AAA);
+	background-image: -o-linear-gradient(top, #EEE, #AAA);
+	background-image: linear-gradient(top, #EEE, #AAA);
+	border: 1px solid #999;
+	border-bottom: 1px solid #BBB;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	color: #333;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	padding: 8px 0;
+	text-align: center;
+	text-shadow: 0 1px 0 #EEE;
+}
+
+#YourCount {
+	text-align: center;
+	font-size: 2em;
+
+}
+
+#YourUp {
   display: block;
-  padding: 0;
-  margin: 0;
-  padding-left: 20px;
-  border: 1px solid #eee;
+	text-align: center;
+	border-bottom: 1px solid #999;
+	padding: 10px 0;
 }
 
-.quantity input:focus {
-  outline: 0;
+#YourDown {
+  display: block;
+	text-align: center;
+	border-top: 1px solid #999;
+	padding: 10px 0;
 }
 
-.quantity-nav {
-  float: right;
-  position: relative;
-  height: 42px;
+#EnemyLife {
+	opacity: 0.9;
+	background-color: #EEE;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEE), color-stop(100%, #CCC));
+	background-image: -webkit-linear-gradient(top, #EEE, #AAA);
+	background-image: -moz-linear-gradient(top, #EEE, #AAA);
+	background-image: -ms-linear-gradient(top, #EEE, #AAA);
+	background-image: -o-linear-gradient(top, #EEE, #AAA);
+	background-image: linear-gradient(top, #EEE, #AAA);
+	border: 1px solid #999;
+	border-bottom: 1px solid #BBB;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	color: #333;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	padding: 8px 0;
+	text-align: center;
+	text-shadow: 0 1px 0 #EEE;
+
 }
 
-.quantity-button {
-  position: relative;
-  cursor: pointer;
-  border-left: 1px solid #eee;
-  width: 20px;
-  text-align: center;
-  color: #333;
-  font-size: 13px;
-  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
-  line-height: 1.7;
-  -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
+#EnemyCount {
+	text-align: center;
+	font-size: 2em;
+
 }
 
-.quantity-button.quantity-up {
-  position: absolute;
-  height: 50%;
-  top: 0;
-  border-bottom: 1px solid #eee;
+#EnemyUp {
+  display: block;
+	text-align: center;
+	border-bottom: 1px solid #999;
+	padding: 10px 0;
+
 }
 
-.quantity-button.quantity-down {
-  position: absolute;
-  bottom: -1px;
-  height: 50%;
+#EnemyDown {
+  display: block;
+	text-align: center;
+	border-top: 1px solid #999;
+	padding: 10px 0;
+
 }
 
-/* Positionings*/
-.centered {
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#YourUp, #YourDown, #EnemyUp, #EnemyDown, #YourUp, #YourDown, #EnemyUp, #EnemyDown {
+	opacity: 0.5;
 }
 
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
+#reset {
+	display: block;
+	font-size: 3em;
+	line-height: 1.3em;
+	text-align: center;
+	height: 65px;
+	width: 65px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	color: #333;
+	text-shadow: 0 1px 0 #EEE;
+	opacity: 0.2;
+	background-color: #EEE;
 
+	-webkit-border-top-left-radius: 30px;
+	-moz-border-radius-topleft: 30px;
+	border-top-left-radius: 30px;
+}
+
+#commander {
+	display: block;
+	height: 65px;
+	width: 65px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+  
+	font-size: 3em;
+	line-height: 1.3em;
+	text-align: center;  
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	color: #333;
+	text-shadow: 0 1px 0 #EEE;
+	opacity: 0.2;
+	background-color: #EEE;
+
+	-webkit-border-top-right-radius: 30px;
+	-moz-border-radius-topright: 30px;
+	border-top-right-radius: 30px;
 }
 
 /*Numpad*/
