@@ -1,7 +1,7 @@
 
 /*Button Links*/
 
-/*
+
 body {
     margin: 0;
     height: 100vh;
@@ -70,7 +70,7 @@ li span {
 li:hover span {
     transform: translateX(0.15em);
 }
-*/
+
 /*Icon*/
 div.icon {
     content:url("https://usercontent2.hubstatic.com/14104605_f520.jpg");
