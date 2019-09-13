@@ -46,13 +46,13 @@
 
 .left {
 	float: left;
-	width: 70%;
+	width: 42.5%;
 	margin: 20px 2.5% 0 5%;
 }
 
 .center {
 	float: center;
-	width: 42.5%;
+	width: 70%;
 	display: inline-block;
 	margin: 20px 5.0% 0 5%;
 }
