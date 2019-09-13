@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="cell-md-6">
+        <input placeholder="Enter a pin"
+        type="text" data-role="keypad"
+        data-on-change="$('#change_target').val(arguments[0])">
+    </div>
+    <div class="cell-md-6">
+        <input type="text" data-role="input"
+        id="change_target" data-prepend="Pin is: "
+        data-clear-button="false" readonly>
+    </div>
+</div>
