@@ -1,4 +1,5 @@
 var YourCounter = 8000;
+var EnemyCounter = 8000;
 
 var Mode = "0"; //0 = 1v1, 1 = Commander
 
@@ -15,13 +16,13 @@ function YourDecrease() {
 }
 
 function EnemyIncrease() {
-  EnemyCounter++;
+  EnemyCounter = EnemyCounter + 100;
   document.getElementById('EnemyCount').innerHTML = EnemyCounter;
   saveLife();
 }
 
 function EnemyDecrease() {
-  EnemyCounter--;
+  EnemyCounter = EnemyCounter - 100;
   document.getElementById('EnemyCount').innerHTML = EnemyCounter;
   saveLife();
 }  
