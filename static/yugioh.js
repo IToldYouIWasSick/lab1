@@ -3,13 +3,13 @@ var YourCounter = 8000;
 var Mode = "0"; //0 = 1v1, 1 = Commander
 
 function YourIncrease() {
-  YourCounter++;
+  YourCounter = YourCounter + 100;
   document.getElementById('YourCount').innerHTML = YourCounter;
   saveLife(); 
 }
 
 function YourDecrease() {
-  YourCounter--;
+  YourCounter = YourCounter - 100;
   document.getElementById('YourCount').innerHTML = YourCounter;
   saveLife();
 }
@@ -27,7 +27,7 @@ function EnemyDecrease() {
 }  
 
 function Reset() {
-  if (true) { //confirm("Reset life totals to 20?")) {
+  if (true) { //confirm("Reset life totals to 8000?")) {
     YourCounter = 8000;
     
     document.getElementById('YourCount').innerHTML = YourCounter;
