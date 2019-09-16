@@ -189,10 +189,10 @@ label {
 	border-top-left-radius: 30px;
 }
 
-#commander {
+#DiceRoll {
 	display: block;
 	height: 65px;
-	width: 65px;
+	width: 120px;
 	position: fixed;
 	bottom: 0px;
 	left: 0px;
@@ -200,11 +200,35 @@ label {
 	font-size: 3em;
 	line-height: 1.3em;
 	text-align: center;  
+	font-size: 2em;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-	color: #333;
-	text-shadow: 0 1px 0 #EEE;
-	opacity: 0.2;
-	background-color: #EEE;
+	color: rgb(17, 0, 255);
+	/* text-shadow: 0 1px 0 rgb(0, 255, 42);
+	opacity: 0.2; */
+	background-color: rgb(102, 101, 101);
+
+	-webkit-border-top-right-radius: 30px;
+	-moz-border-radius-topright: 30px;
+	border-top-right-radius: 30px;
+}
+
+#Nav {
+	display: block;
+	height: 65px;
+	width: 120px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+  
+	font-size: 3em;
+	line-height: 1.3em;
+	text-align: center;  
+	font-size: 2em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	color: rgb(17, 0, 255);
+	/* text-shadow: 0 1px 0 rgb(0, 255, 42);
+	opacity: 0.2; */
+	background-color: rgb(102, 101, 101);
 
 	-webkit-border-top-right-radius: 30px;
 	-moz-border-radius-topright: 30px;
